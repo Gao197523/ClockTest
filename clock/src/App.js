@@ -25,6 +25,7 @@ this.state={time:new Date()}
    setInterval(()=>this.currentTime(),1000)
  }
 
+setState()
 
   render() {
 
