@@ -20,13 +20,10 @@ this.state={time:new Date()}
     })
   }
 
- componentDidMount() {
-      setInterval( () => {
-        this.setState({
-          curTime : new Date().toLocaleString()
-        })
-      },1000)
-    }
+ ComponentWillMount()
+ {
+   setInterval(()=>this.currentTime(),1000)
+ }
 
 
   render() {
